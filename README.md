@@ -5,7 +5,7 @@ An Open-Source web scraper for TheOwlClub.net.
 # 1. Install Python (if you don't have it)
 Install [python](https://www.python.org/downloads/) if you have not already (CHECK ADD PYTHON TO ENVIORNMENT VARIABLES IN INSTALLER)
 # 2. # Install dependencies (command line)
-  ```pip install selenium webbrowser time os glob```
+  ```pip install selenium```
 # 3. Download [owlscraper.py](https://github.com/couchpotatochip21/OwlScaper/blob/main/owlscraper.py)
 # 4. Create an `owlscraper` folder
 Create a folder in your Downloads folder called `owlscraper` (this program is currently windows only)
