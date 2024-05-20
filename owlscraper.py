@@ -99,7 +99,7 @@ while True:
     
     elements2 = driver.find_elements("tag name", "a")
 
-    print("test9")
+    #print("test9")
 
     for e in elements2:
         if "toh-s{}e{}".format(season, episode) in str(e.get_attribute("onclick")):
@@ -115,23 +115,23 @@ while True:
         href = e.get_attribute('href')
         if "English" in href and not "PreRelease" in href and href not in blacklisturls:
             if "1080p" in href:
-                print("test")
-                print(href)
+                #print("test")
+                #print(href)
 
                 hrefvar = href
 
                 #open the download link
-                print("test2")
+                #print("test2")
                 driver.execute_script("window.open('');")   
                 time.sleep(1)
-                print("test3")  
+                #print("test3")  
                 driver.switch_to.window(driver.window_handles[1])
                 time.sleep(1)
-                print("test4")
+                #print("test4")
                 #driver.get(href)
                 driver.execute_script(f"location.href='{href}';")
                 time.sleep(5)
-                print("test5")
+                #print("test5")
                 #driver.switch_to.window(driver.window_handles[0])
 
                 #driver.get(href)
